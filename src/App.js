@@ -2,22 +2,20 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
-import Home from "./components/Home"
-import Jordan from "./components/Jordan"
-import Ismael from './components/Ismael'
+import Form from "./components/Form"
 import Footer from "./components/Footer"
-
 
 function App() {
   return (
-    <Router>
-        <Home/>
-        <Routes>
-          /*<Route path="/jordan" element={<Jordan />} />*/
-        </Routes>
+      <div>
+        <Form/>
         <Footer/>
-    </Router>
+      </div>
   );
 }
+/*<Routes>
+            <Route path="/" element={<Usuarios />} />
+  </Routes>
+ */
 
 export default App;
