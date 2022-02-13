@@ -8,7 +8,8 @@ export default class Form extends Component{
     state = {
         Usuarios: [],
         name:'',
-        surname: ''
+        surname: '',
+        id: ''
     }
 
     async componentDidMount() {
